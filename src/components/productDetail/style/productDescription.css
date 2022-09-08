@@ -1,0 +1,129 @@
+/* < ==================== Title PRODUCT DETAIL Page ==================== > */
+.product__detail-title {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+.product__detail-title:nth-child(2){
+  color: #f85555;
+}
+/* < ==================== Title PRODUCT DETAIL Page END ==================== > */
+
+
+
+/* < ==================== PRODUCT DEPCRIPTION Page ==================== > */
+.product__description-container {
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.product__description-slider {
+  background-color: blue;
+}
+
+.product__description-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.product__description-name {
+  margin-bottom: 2rem;
+  color: #515151;
+}
+.product__description-info {
+  line-height: 1.4;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.product__description-body{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2rem;
+}
+
+.product__description-label {
+  color: #c7c7c7;
+}
+
+.product__description-price {
+  display: grid;
+  gap: 1rem;
+}
+
+.product__description-value {
+  font-size: 1.4rem;
+}
+
+.product__description-value::before{
+  content: '$';
+  margin-right: .3rem;
+}
+
+.product__description-quantity {
+  display: grid;
+  gap: 1rem;
+}
+
+.product__description-quantity-product {
+  display: flex;
+}
+
+.product__description-quantity-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #aaac;
+  aspect-ratio: 1;
+  width: 2.5rem;
+  font-size: 1.3rem;
+  color: black;
+  cursor: pointer;
+}
+
+.product__description-quantity-form:hover {
+  filter: brightness(1.1);
+}
+.product-info__btn-cart {
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+  border: none;
+  border-radius: .5rem;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+  transition: filter 100ms ease;
+  cursor: pointer;
+}
+.product-info__btn-cart:hover {
+  background: var(--bottom-color-hover);
+  filter: brightness(1.04);
+  transition: filter 100ms ease;
+}
+
+@media (min-width: 800px) {
+  .product__description-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1600px;
+
+    width: 90%;
+  }
+  .product__description-slider{
+    background-color: blue;
+    width: 50%;
+  }
+
+  .product__description-section {
+    width: 50%;
+
+  }
+  .product__description {
+    /* background-color: red; */
+  }
+}

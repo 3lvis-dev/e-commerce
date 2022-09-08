@@ -36,7 +36,7 @@
   transition: filter 100ms ease;
 }
 .form-logout__btn:hover {
-  background: #d400d4;
+  background: var(--bottom-color-hover);
   filter: brightness(1.05);
   transition: filter 100ms ease;
 }
