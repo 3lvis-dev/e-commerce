@@ -1,0 +1,42 @@
+.form__container {
+  height: 100vh;
+}
+.form__logout {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px #0003;
+  max-width: 25rem;
+  width: 100%;
+  gap: 1rem;
+}
+.form-logout__icon{
+  font-size: 60px;
+  color: #aaa;
+}
+.form-logout__check{
+  font-size: 6rem;
+  color: limegreen;
+}
+
+.form-logout__btn {
+  background-color: var(--primary-color);
+  width: 80%;
+  padding: .5rem 1.2rem;
+  border: none;
+  border-radius: .5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  transition: filter 100ms ease;
+}
+.form-logout__btn:hover {
+  background: #d400d4;
+  filter: brightness(1.05);
+  transition: filter 100ms ease;
+}

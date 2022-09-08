@@ -1,0 +1,20 @@
+.similiar__products-container {
+  margin: auto;
+  width: 100%;
+}
+
+.similiar__products-title {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  color: #f85555;
+}
+
+.similar__products-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}

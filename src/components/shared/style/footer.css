@@ -1,0 +1,43 @@
+.footer {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 1rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 15%;
+  height: 3rem;
+}
+
+.footer__social-media  {
+  font-size: 3rem; 
+}
+
+.bxl-instagram {
+  color: blue; 
+}
+.bxl-linkedin-square {
+  color: #004182;
+}
+.bxl-github {
+  color: #f0f6fc;
+}
