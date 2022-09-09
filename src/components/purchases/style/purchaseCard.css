@@ -1,0 +1,30 @@
+.card__purchase {
+  margin: auto;
+  border: .1rem solid #dcd9d9;
+  border-radius: 1rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.card__purchase-header {
+  /* background: blueviolet; */
+  padding: 1rem;
+  border-bottom: .1rem solid #dcd9d9;
+  width: 100%;
+  overflow: hidden;
+}
+.card__purchase-date {
+  font-weight: 900;
+  font-size: 1.2rem;
+  /* color: #fff; */
+}
+
+.card__purchase-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: #515151;
+  /* cursor: pointer; */
+  gap: 1rem;
+}
+

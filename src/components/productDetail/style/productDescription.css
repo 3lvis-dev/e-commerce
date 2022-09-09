@@ -18,11 +18,16 @@
   margin: auto;
   margin-bottom: 2rem;
   max-width: 600px;
-  width: 100%;
+  width: 90%;
 }
 
 .product__description-slider {
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
 }
 
 .product__description-section {
@@ -32,7 +37,7 @@
 }
 .product__description-name {
   margin-bottom: 2rem;
-  color: #515151;
+  color: var(--title-cards);
 }
 .product__description-info {
   line-height: 1.4;
@@ -115,15 +120,12 @@
     width: 90%;
   }
   .product__description-slider{
-    background-color: blue;
+    display: flex;
+    justify-content: center;
     width: 50%;
   }
 
   .product__description-section {
     width: 50%;
-
-  }
-  .product__description {
-    /* background-color: red; */
   }
 }

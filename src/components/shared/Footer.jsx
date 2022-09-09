@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__container'>
-        <div class="copyright">
+        <div className="copyright">
           © Elvis Espinoza 2022
         </div>
 
-        <div class="footer__social-media">
+        <div className="footer__social-media">
           <a href='https://www.instagram.com/hypnos_insigne/' target='_blank'>
             <i className='bx bxl-instagram'></i>
           </a>

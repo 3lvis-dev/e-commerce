@@ -1,6 +1,7 @@
 :root {
   --primary-color: blueviolet;
   --bottom-color-hover: #d400d4;
+  --title-cards: #515151; 
 }
 
 * {
@@ -9,4 +10,8 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+
+p {
+  color: #515151;;
 }

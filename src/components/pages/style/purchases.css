@@ -1,0 +1,34 @@
+.purchase {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto 2rem auto;
+  width: 90%;
+}
+
+.purchase__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  max-width: 12rem;
+  font-size: 1.4rem;
+}
+
+.purchase__header span:nth-child(2) {
+  color: #f85555;
+}
+
+.purchase__title{
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  color: var(--title-cards);
+  font-size: 1.4rem;
+}
+
+.purchase__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

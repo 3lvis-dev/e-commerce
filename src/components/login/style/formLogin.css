@@ -47,7 +47,7 @@ form .form__grupo i{
   left: -3rem;
 }
 
-input {
+.form__login-input {
   background: none;
   display: block;
   padding: 1rem 1rem 1rem .5rem;
@@ -58,12 +58,12 @@ input {
   width: 100%;
 }
 
-input:focus{
+.form__login-input:focus{
   outline: none;
   color: #5e5d5d;
 }
 
-label{
+.form__login-label {
   font-size: 1.2rem;
   color: #5e5d5d;
   position: absolute;
@@ -73,8 +73,8 @@ label{
   pointer-events: none;
 }
 
-input:focus~label, 
-input:valid~label{
+.form__login-input:focus~label, 
+.form__login-input:valid~label{
   top: -1rem; 
   font-size: 1.2rem;
   color: #27b874;
@@ -97,7 +97,7 @@ input:valid~label{
   left: 0;
 }
 
-input:focus~.barra::before{
+.form__login-input:focus~.barra::before{
   width: 100%;
 }
 

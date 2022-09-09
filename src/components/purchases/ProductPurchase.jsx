@@ -1,4 +1,5 @@
 import React from 'react'
+import './style/productPurcharse.css'
 
 const ProductPurchase = ({ product }) => {
 

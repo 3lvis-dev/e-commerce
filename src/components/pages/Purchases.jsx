@@ -1,7 +1,9 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import getConfig  from '../../utils/getConfig' 
 import PurchaseCard from '../purchases/PurchaseCard'
+import './style/purchases.css'
 
 const Purchases = () => {
   const [purchases, setPurchases] = useState()
@@ -13,22 +15,29 @@ const Purchases = () => {
       .then(res => setPurchases(res.data.data.purchases))
       .catch(err => console.log(err))
   }, [])
-
-  // console.log(purchases)
   
   return (
     <div className='purchase'>
-      <div className='purchase__title'>
-        <h2>Purchases</h2>
+      <div className='purchase__header'>
+        <NavLink to='/'>
+          <span >Home</span>
+        </NavLink>
+        <span>Purchases</span>
       </div>
-      {
-        purchases?.map(purchase => (
-          <PurchaseCard 
+
+      <div className='purchase__title'>
+        <span>My Purchases</span>
+      </div>
+      <div className='purchase__card'>
+        {
+          purchases?.map(purchase => (
+            <PurchaseCard 
             key={purchase.id}
             purchase={purchase}
-          />
-        ))
-      }
+            />
+          ))
+        }
+      </div>
     </div>
   )
 }

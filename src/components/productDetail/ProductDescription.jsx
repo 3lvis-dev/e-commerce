@@ -28,11 +28,12 @@ const ProductDescription = ({ productInfo }) => {
       .catch(err => console.log(err))
   }
 
+
   return (
     <div className='product__description-container'>
 
       <div className='product__description-slider'>
-        <h2>Slider</h2>
+        <img src={productInfo?.productImgs[0]} alt="img product" />
       </div>
 
       <div className='product__description-section'>

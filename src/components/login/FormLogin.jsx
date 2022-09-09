@@ -30,14 +30,14 @@ const FormLogin = ({ setIsLooged }) => {
         <div className='form'>
           <div className='form__grupo'>
             <i className='bx bxs-envelope'></i>
-            <input {...register('email')} type="email" id="email" required /><span className='barra'></span>
-            <label className='login__label' htmlFor="email">email</label>
+            <input {...register('email')} className="form__login-input" type="email" id="email" required /><span className='barra'></span>
+            <label className='form__login-label' htmlFor="email">email</label>
           </div>
 
           <div className='form__grupo'>
             <i className='bx bxs-lock-alt'></i>
-            <input {...register('password')} type="password" id="password" required /><span className='barra'></span>
-            <label className='login__label' htmlFor="password">Password</label>
+            <input {...register('password')} className="form__login-input" type="password" id="password" required /><span className='barra'></span>
+            <label className='form__login-label' htmlFor="password">Password</label>
           </div>
         </div>
 
